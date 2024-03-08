@@ -1,4 +1,4 @@
-workspace = { members = ["BinarySearch", "BubbleSort", "LinearSearch", "MergeSort"] }
+workspace = { members = ["BinarySearch", "BubbleSort", "LinearRegression", "LinearSearch", "MergeSort"] }
 [package]
 name = "Rust-DSA"
 version = "0.1.0"
@@ -26,5 +26,13 @@ path = "LinkedList/main.rs"
 [[bin]]
 name = "mergesort"
 path = "MergeSort/main.rs"
+
+[[bin]]
+name = "linearegression"
+path = "LinearRegression/src/main.rs"
+
+[[bin]]
+name = "Rust-DSA"
+path = "src/main.rs"
 
 [dependencies]

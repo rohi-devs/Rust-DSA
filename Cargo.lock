@@ -11,6 +11,10 @@ name = "BubbleSort"
 version = "0.1.0"
 
 [[package]]
+name = "LinearRegression"
+version = "0.1.0"
+
+[[package]]
 name = "LinearSearch"
 version = "0.1.0"
 
