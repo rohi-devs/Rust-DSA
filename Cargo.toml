@@ -1,0 +1,30 @@
+workspace = { members = ["BinarySearch", "BubbleSort", "LinearSearch", "MergeSort"] }
+[package]
+name = "Rust-DSA"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[[bin]]
+name = "binarysearch"
+path = "BinarySearch/main.rs"
+
+[[bin]]
+name = "bubblesort"
+path = "BubbleSort/main.rs"
+
+[[bin]]
+name = "linearsearch"
+path = "LinearSearch/main.rs"
+
+[[bin]]
+name = "linkedlist"
+path = "LinkedList/main.rs"
+
+[[bin]]
+name = "mergesort"
+path = "MergeSort/main.rs"
+
+[dependencies]
