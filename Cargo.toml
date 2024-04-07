@@ -1,4 +1,4 @@
-workspace = { members = ["BinarySearch", "BubbleSort", "LinearRegression", "LinearSearch", "MergeSort"] }
+workspace = { members = ["BinarySearch", "Btree", "BubbleSort", "LinearRegression", "LinearSearch", "MergeSort"] }
 [package]
 name = "Rust-DSA"
 version = "0.1.0"
@@ -10,6 +10,10 @@ edition = "2021"
 [[bin]]
 name = "binarysearch"
 path = "BinarySearch/main.rs"
+
+[[bin]]
+name = "btree"
+path = "Btree/src/main.rs"
 
 [[bin]]
 name = "bubblesort"

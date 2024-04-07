@@ -7,6 +7,10 @@ name = "BinarySearch"
 version = "0.1.0"
 
 [[package]]
+name = "Btree"
+version = "0.1.0"
+
+[[package]]
 name = "BubbleSort"
 version = "0.1.0"
 
